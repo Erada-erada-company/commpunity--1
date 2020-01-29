@@ -1,0 +1,38 @@
+* {
+    margin: 0l;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #F0F4F9;
+    height: 100vh;
+}
+
+// navbar
+
+@import './nav';
+
+
+// content
+
+
+.wrapper{
+    display: flex;
+    height:100%;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+
+
+    h2{
+        font-size: 100px;
+        font-weight: 500;
+        margin-bottom: 150px;
+    }
+}
